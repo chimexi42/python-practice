@@ -1,8 +1,6 @@
 import tensorflow as tf
 from tensorflow import keras
-import os
-import matplotlib.pyplot as plt
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+
 
 # mnist = tf.keras.datasets.mnist
 
@@ -31,7 +29,3 @@ print(train_images[0])
 
 # plt.imshow(train_images[7], cmap = plt.cm.binary)
 # plt.show()
-
-
-
-

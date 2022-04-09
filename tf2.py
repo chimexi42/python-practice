@@ -1,4 +1,4 @@
-from pydoc import classname
+
 import tensorflow as tf
 from tensorflow import keras
 import numpy as np
@@ -33,7 +33,7 @@ model.compile(optimizer='adam',
               loss='sparse_categorical_crossentropy',
               metrics=['accuracy'])
 
-model.fit(train_images, train_labels, epochs=10)
+# model.fit(train_images, train_labels, epochs=10)
 
 test_loss, test_acc = model.evaluate(test_images, test_labels)
 
